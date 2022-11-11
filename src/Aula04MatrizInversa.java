@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MatrizInversa {
+public class Aula04MatrizInversa {
 
     public static void main(String[] args) {
         /*

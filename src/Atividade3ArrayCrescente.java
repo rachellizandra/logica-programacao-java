@@ -28,7 +28,20 @@ public class Atividade3ArrayCrescente {
         for (int i = 0; i < arrayCrescente.length; i++) {
             arrayCrescente[i] = new Random().nextInt(60) + 1;
         }
-        Arrays.sort(arrayCrescente);
-        System.out.println(Arrays.toString(arrayCrescente));
+        System.out.println("Array sem ordenação: " + Arrays.toString(arrayCrescente));
+
+        // BubbleSort
+        int aux;
+        for (int i = 0; i < arrayCrescente.length; ++i) {
+            for (int j = i; j < arrayCrescente.length; ++j) {
+                if (arrayCrescente[i] > arrayCrescente[j]) {
+                    aux = arrayCrescente[i];
+                    arrayCrescente[i] = arrayCrescente[j];
+                    arrayCrescente[j] = aux;
+                }
+            }
+        }
+        System.out.println("Array ordenada: " + Arrays.toString(arrayCrescente));
     }
 }
+

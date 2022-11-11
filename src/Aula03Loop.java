@@ -5,11 +5,12 @@ public class Aula03Loop {
 
         // EXEMPLO 1
 
-    // while, do while, for
+        // while, do while, for
 //        int contador = 0;
 //        while (contador < 10) {
 //            System.out.println(contador);
 //            contador++;
+//    }
 //
 //        for(int i =0; i < 10; i++) {
 //            System.out.println("O valor de i é: " + i);
